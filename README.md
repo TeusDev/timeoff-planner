@@ -68,11 +68,11 @@ Com uma interface moderna e intuitiva, o sistema oferece análises detalhadas, v
    # Com pnpm (recomendado)
    pnpm install
    ```
-   ```
+   ```bash
    # Com npm
    npm install
    ```
-   ```
+   ```bash
    # Com yarn
    yarn install
    ```
@@ -80,9 +80,16 @@ Com uma interface moderna e intuitiva, o sistema oferece análises detalhadas, v
 3. **Execute o projeto em modo de desenvolvimento**
 
    ```bash
+   # Com pnpm (recomendado)
    pnpm dev
-   # ou: npm run dev
-   # ou: yarn dev
+   ```
+   ```bash
+   # Com npm
+   npm run dev
+   ```
+   ```bash
+   # Com yarn
+   yarn dev
    ```
 
 4. **Acesse a aplicação**
