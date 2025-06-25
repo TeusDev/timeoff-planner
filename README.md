@@ -60,19 +60,21 @@ Com uma interface moderna e intuitiva, o sistema oferece análises detalhadas, v
    ```bash
    git clone https://github.com/TeusDev/timeoff-planner.git
    cd timeoff-planner
-````
-
+   ```
+   
 2. **Instale as dependências**
 
    ```bash
    # Com pnpm (recomendado)
    pnpm install
-
+   ```
+   ```
    # Com npm
-   # npm install
-
+   npm install
+   ```
+   ```
    # Com yarn
-   # yarn install
+   yarn install
    ```
 
 3. **Execute o projeto em modo de desenvolvimento**
