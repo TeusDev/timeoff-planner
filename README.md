@@ -2,290 +2,244 @@
 
 Um sistema inteligente e moderno para planejamento e compensação de ausências com análise detalhada, relatórios avançados e interface responsiva.
 
-![Planejador de Ausência](https://img.shields.io/badge/Status-Ativo-brightgreen) ![Next.js](https://img.shields.io/badge/Next.js-14.0-black) ![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue) ![Tailwind CSS](https://img.shields.io/badge/Tailwind-3.3-38bdf8)
+![Status](https://img.shields.io/badge/Status-Ativo-brightgreen)
+![Next.js](https://img.shields.io/badge/Next.js-14.0-black)
+![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind-3.3-38bdf8)
+
+---
 
 ## 🎯 Visão Geral
 
-O **Planejador de Ausência** é uma aplicação web desenvolvida para facilitar o planejamento de períodos de ausência e calcular automaticamente os dias de compensação necessários. Com uma interface moderna e intuitiva, o sistema oferece análises detalhadas, visualizações interativas e relatórios exportáveis em múltiplos formatos.
+O **Planejador de Ausência** é uma aplicação web desenvolvida para facilitar o planejamento de períodos de ausência e calcular automaticamente os dias de compensação necessários.  
+Com uma interface moderna e intuitiva, o sistema oferece análises detalhadas, visualizações interativas e relatórios exportáveis em múltiplos formatos.
 
 ### ✨ Principais Funcionalidades
 
-- **📊 Visualização de Calendário**: Visualize todos os dias do período de ausência com detalhes completos
-- **🔢 Cálculo de Compensação**: Calcule automaticamente os dias de compensação necessários
-- **📈 Análise Avançada**: Relatórios com insights detalhados e métricas de impacto
-- **📱 Interface Responsiva**: Design otimizado para desktop, tablet e mobile
-- **🎨 Animações Fluidas**: Transições suaves e animações otimizadas para performance
-- **📄 Exportação de Relatórios**: Exporte dados em formatos TXT, CSV e JSON
-- **🌐 Localização pt-BR**: Interface e formatação completamente em português brasileiro
-- **♿ Acessibilidade**: Suporte completo para leitores de tela e navegação por teclado
+- 📊 **Visualização de Calendário**: Visualize todos os dias do período de ausência com detalhes completos  
+- 🔢 **Cálculo de Compensação**: Calcule automaticamente os dias de compensação necessários  
+- 📈 **Análise Avançada**: Relatórios com insights detalhados e métricas de impacto  
+- 📱 **Interface Responsiva**: Design otimizado para desktop, tablet e mobile  
+- 🎨 **Animações Fluidas**: Transições suaves e animações otimizadas para performance  
+- 📄 **Exportação de Relatórios**: Exporte dados em formatos TXT, CSV e JSON  
+- 🌐 **Localização pt-BR**: Interface e formatação completamente em português brasileiro  
+- ♿ **Acessibilidade**: Suporte completo para leitores de tela e navegação por teclado  
+
+---
 
 ## 🛠️ Tecnologias Utilizadas
 
 ### Frontend
-- **[Next.js 14](https://nextjs.org/)** - Framework React com App Router
-- **[React 18](https://reactjs.org/)** - Biblioteca para interfaces de usuário
-- **[TypeScript](https://www.typescriptlang.org/)** - Superset tipado do JavaScript
-- **[Tailwind CSS](https://tailwindcss.com/)** - Framework CSS utilitário
+- [Next.js 14](https://nextjs.org/)
+- [React 18](https://reactjs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
 
-### UI/UX
-- **[shadcn/ui](https://ui.shadcn.com/)** - Componentes de interface modernos
-- **[Radix UI](https://www.radix-ui.com/)** - Componentes acessíveis e não estilizados
-- **[Lucide React](https://lucide.dev/)** - Ícones SVG otimizados
-- **[date-fns](https://date-fns.org/)** - Biblioteca para manipulação de datas
+### UI&nbsp;/&nbsp;UX
+- [shadcn/ui](https://ui.shadcn.com/)
+- [Radix UI](https://www.radix-ui.com/)
+- [Lucide React](https://lucide.dev/)
+- [date-fns](https://date-fns.org/)
 
 ### Desenvolvimento
-- **[ESLint](https://eslint.org/)** - Linter para JavaScript/TypeScript
-- **[PostCSS](https://postcss.org/)** - Processador CSS
-- **[Autoprefixer](https://autoprefixer.github.io/)** - Plugin para prefixos CSS
+- [ESLint](https://eslint.org/)
+- [PostCSS](https://postcss.org/)
+- [Autoprefixer](https://autoprefixer.github.io/)
+
+---
 
 ## 🚀 Instalação
 
 ### Pré-requisitos
-
-- **Node.js** 18.0 ou superior
+- **Node.js 18.0** ou superior  
 - **npm**, **yarn** ou **pnpm** (recomendado)
 
 ### Passos de Instalação
 
 1. **Clone o repositório**
-   \`\`\`bash
-   git clone https://github.com/seu-usuario/planejador-ausencia.git
-   cd planejador-ausencia
-   \`\`\`
+   ```bash
+   git clone https://github.com/TeusDev/timeoff-planner.git
+   cd timeoff-planner
+````
 
 2. **Instale as dependências**
-   \`\`\`bash
-   # Com npm
-   npm install
 
-   # Com yarn
-   yarn install
-
+   ```bash
    # Com pnpm (recomendado)
    pnpm install
-   \`\`\`
 
-3. **Execute o projeto em modo de desenvolvimento**
-   \`\`\`bash
    # Com npm
-   npm run dev
+   # npm install
 
    # Com yarn
-   yarn dev
+   # yarn install
+   ```
 
-   # Com pnpm
+3. **Execute o projeto em modo de desenvolvimento**
+
+   ```bash
    pnpm dev
-   \`\`\`
+   # ou: npm run dev
+   # ou: yarn dev
+   ```
 
 4. **Acesse a aplicação**
-   
-   Abra [http://localhost:3000](http://localhost:3000) no seu navegador.
+   Abra **[http://localhost:3000](http://localhost:3000)** no navegador.
+
+---
 
 ## 📖 Como Usar
 
-### 1. Seleção do Modo de Operação
+1. **Seleção do Modo de Operação**
 
-Na tela inicial, escolha entre dois modos:
+   * 📅 Visualização de Calendário
+   * 🏢 Cálculo de Compensação
 
-- **📅 Visualização de Calendário**: Para visualizar todos os dias do período de ausência
-- **🏢 Cálculo de Compensação**: Para calcular dias de compensação necessários
+2. **Definição do Período**
 
-### 2. Definição do Período
+   * Selecione **Data de Início** e **Data de Retorno**
 
-1. **Data de Início**: Selecione quando sua ausência começará
-2. **Data de Retorno**: Selecione quando você retornará
+3. **Análise dos Resultados**
 
-### 3. Análise dos Resultados
+   * 📊 Resumo Executivo
+   * 📋 Detalhes
+   * 📈 Análise
+   * 💡 Insights
 
-O sistema apresentará:
+4. **Exportação de Relatórios**
 
-- **📊 Resumo Executivo**: Métricas principais do período
-- **📋 Detalhes**: Lista completa de dias ou cronograma de compensação
-- **📈 Análise**: Gráficos e distribuições estatísticas
-- **💡 Insights**: Recomendações e observações inteligentes
+   * 📄 TXT  •  📊 CSV  •  🔧 JSON
 
-### 4. Exportação de Relatórios
-
-Exporte seus dados em três formatos:
-
-- **📄 TXT**: Relatório textual formatado
-- **📊 CSV**: Dados tabulares para planilhas
-- **🔧 JSON**: Dados estruturados para integração
+---
 
 ## ⚙️ Configuração
 
-### Variáveis de Ambiente
+Nenhuma variável de ambiente é necessária para rodar localmente.
+Para personalizar tema e cores, edite `tailwind.config.ts`.
+Localização de datas: `lib/enhanced-date-logic.ts`.
 
-O projeto não requer variáveis de ambiente específicas para funcionar localmente. Todas as configurações estão incluídas nos arquivos de configuração.
-
-### Personalização
-
-#### Cores e Tema
-Edite o arquivo `tailwind.config.ts` para personalizar:
-- Paleta de cores
-- Espaçamentos
-- Tipografia
-- Breakpoints responsivos
-
-#### Localização
-As configurações de localização estão em:
-- `lib/enhanced-date-logic.ts` - Formatação de datas
-- Componentes utilizam `date-fns/locale/ptBR`
+---
 
 ## 🏗️ Scripts Disponíveis
 
-\`\`\`bash
+```bash
 # Desenvolvimento
-pnpm dev          # Inicia servidor de desenvolvimento
+pnpm dev
 
 # Produção
-pnpm build        # Gera build de produção
-pnpm start        # Inicia servidor de produção
+pnpm build
+pnpm start
 
 # Qualidade de Código
-pnpm lint         # Executa ESLint
-pnpm type-check   # Verifica tipos TypeScript
-\`\`\`
+pnpm lint
+pnpm type-check
+```
 
-## 🤝 Contribuindo
-
-Contribuições são sempre bem-vindas! Siga estas diretrizes:
-
-### 1. Fork e Clone
-\`\`\`bash
-git clone https://github.com/seu-usuario/planejador-ausencia.git
-cd planejador-ausencia
-\`\`\`
-
-### 2. Crie uma Branch
-\`\`\`bash
-git checkout -b feature/nova-funcionalidade
-\`\`\`
-
-### 3. Padrões de Código
-
-- **TypeScript**: Use tipagem estrita
-- **Componentes**: Siga o padrão de componentes funcionais
-- **Styling**: Use Tailwind CSS e classes utilitárias
-- **Commits**: Use mensagens descritivas em português
-
-### 4. Estrutura de Commits
-\`\`\`
-feat: adiciona nova funcionalidade
-fix: corrige bug específico
-docs: atualiza documentação
-style: ajustes de formatação
-refactor: refatora código existente
-test: adiciona ou corrige testes
-\`\`\`
-
-### 5. Pull Request
-
-1. Certifique-se de que todos os testes passam
-2. Atualize a documentação se necessário
-3. Descreva claramente as mudanças realizadas
+---
 
 ## 📁 Estrutura do Projeto
 
-\`\`\`
-planejador-ausencia/
-├── app/                    # App Router do Next.js
-│   ├── globals.css        # Estilos globais e animações
-│   ├── layout.tsx         # Layout principal
-│   └── page.tsx           # Página principal da aplicação
-├── components/            # Componentes shadcn/ui
-│   └── ui/               # Componentes de interface
-├── lib/                  # Utilitários e lógica de negócio
-│   ├── date-logic.ts     # Lógica de datas (legado)
-│   ├── enhanced-date-logic.ts # Lógica avançada de datas
-│   └── utils.ts          # Utilitários gerais
-├── public/               # Arquivos estáticos
-├── package.json          # Dependências e scripts
-├── tailwind.config.ts    # Configuração do Tailwind
-├── tsconfig.json         # Configuração do TypeScript
-└── vercel.json          # Configuração de deploy
-\`\`\`
+```text
+timeoff-planner/
+├── app/
+│   ├── globals.css
+│   ├── layout.tsx
+│   └── page.tsx
+├── components/
+│   └── ui/
+├── lib/
+│   ├── date-logic.ts
+│   ├── enhanced-date-logic.ts
+│   └── utils.ts
+├── public/
+├── package.json
+├── tailwind.config.ts
+├── tsconfig.json
+└── vercel.json
+```
+
+---
 
 ## 🎨 Screenshots
 
-### Tela Inicial
-![Tela Inicial](https://via.placeholder.com/800x600/3B82F6/FFFFFF?text=Tela+Inicial)
+| Tela             | Preview                                                                                      |
+| ---------------- | -------------------------------------------------------------------------------------------- |
+| Tela Inicial     | ![Tela Inicial](https://via.placeholder.com/800x600/3B82F6/FFFFFF?text=Tela+Inicial)         |
+| Seleção de Datas | ![Seleção de Datas](https://via.placeholder.com/800x600/10B981/FFFFFF?text=Seleção+de+Datas) |
+| Relatórios       | ![Relatórios](https://via.placeholder.com/800x600/8B5CF6/FFFFFF?text=Relatórios+e+Análises)  |
 
-### Seleção de Datas
-![Seleção de Datas](https://via.placeholder.com/800x600/10B981/FFFFFF?text=Seleção+de+Datas)
-
-### Relatórios e Análises
-![Relatórios](https://via.placeholder.com/800x600/8B5CF6/FFFFFF?text=Relatórios+e+Análises)
+---
 
 ## 🌐 Demo Online
 
-🔗 **[Acesse a Demo](https://planejador-ausencia.vercel.app)**
+🔗 **[Acesse a Demo](https://v0-planejador-de-ausencia.vercel.app/)**
 
-*A demo está hospedada na Vercel e é atualizada automaticamente com cada commit na branch principal.*
+---
 
 ## 📊 Performance
 
-- **Lighthouse Score**: 95+ em todas as métricas
-- **Core Web Vitals**: Otimizado para LCP, FID e CLS
-- **Bundle Size**: < 200KB gzipped
-- **Animações**: 60fps com hardware acceleration
+* **Lighthouse** ≥ 95 em todas as métricas
+* **Core Web Vitals** otimizado
+* **Bundle** < 200 KB gzipped
+* **Animações** 60 fps com aceleração por hardware
+
+---
 
 ## 🔧 Troubleshooting
 
-### Problemas Comuns
+### Erro de dependências
 
-**1. Erro de dependências**
-\`\`\`bash
-rm -rf node_modules package-lock.json
-npm install
-\`\`\`
+```bash
+rm -rf node_modules pnpm-lock.yaml
+pnpm install
+```
 
-**2. Problemas de build**
-\`\`\`bash
-npm run lint
-npm run type-check
-\`\`\`
+### Problemas de build
 
-**3. Problemas de estilo**
-\`\`\`bash
-# Verifique se o Tailwind está configurado corretamente
-npx tailwindcss -i ./app/globals.css -o ./dist/output.css --watch
-\`\`\`
+```bash
+pnpm lint
+pnpm type-check
+```
+
+---
 
 ## 📝 Changelog
 
 ### v1.0.0 (2025-01-25)
-- ✨ Lançamento inicial
-- 📅 Visualização de calendário
-- 🔢 Cálculo de compensação
-- 📊 Relatórios avançados
-- 🎨 Interface responsiva
-- 🌐 Localização pt-BR
+
+* ✨ Lançamento inicial
+* 📅 Visualização de calendário
+* 🔢 Cálculo de compensação
+* 📊 Relatórios avançados
+* 🎨 Interface responsiva
+* 🌐 Localização pt-BR
+
+---
 
 ## 📄 Licença
 
-Este projeto está licenciado sob a **MIT License** - veja o arquivo [LICENSE](LICENSE) para detalhes.
+Distribuído sob a **MIT License**.
+Este repositório inclui código gerado por IA para fins educacionais e pessoais — consulte o arquivo [LICENSE](LICENSE) para detalhes.
+
+---
 
 ## 👥 Equipe
 
 ### Desenvolvedor Principal
-- **Seu Nome** - *Desenvolvimento Full-Stack* - [@seu-github](https://github.com/seu-usuario)
+
+* **Teusdv** — *Desenvolvimento Full-Stack* — [@TeusDev](https://github.com/TeusDev)
 
 ### Contribuidores
-- Veja a lista completa de [contribuidores](https://github.com/seu-usuario/planejador-ausencia/contributors)
+
+> Projeto desenvolvido individualmente com apoio de ferramentas de Inteligência Artificial.
+
+---
 
 ## 📞 Contato
 
-- **Email**: seu.email@exemplo.com
-- **LinkedIn**: [Seu Perfil](https://linkedin.com/in/seu-perfil)
-- **GitHub**: [@seu-usuario](https://github.com/seu-usuario)
-
-## 🙏 Agradecimentos
-
-- [Next.js Team](https://nextjs.org/) pelo excelente framework
-- [shadcn](https://twitter.com/shadcn) pelos componentes UI
-- [Vercel](https://vercel.com/) pela plataforma de deploy
-- Comunidade open-source pelas bibliotecas utilizadas
+* **Email**: [221000080@aluno.unb.br](mailto:221000080@aluno.unb.br)
+* **LinkedIn**: [linkedin.com/in/teusdev](https://www.linkedin.com/in/teusdev)
+* **GitHub**: [@TeusDev](https://github.com/TeusDev)
 
 ---
 
@@ -293,6 +247,8 @@ Este projeto está licenciado sob a **MIT License** - veja o arquivo [LICENSE](L
 
 **⭐ Se este projeto foi útil para você, considere dar uma estrela!**
 
-[🐛 Reportar Bug](https://github.com/seu-usuario/planejador-ausencia/issues) • [💡 Sugerir Feature](https://github.com/seu-usuario/planejador-ausencia/issues) • [📖 Documentação](https://github.com/seu-usuario/planejador-ausencia/wiki)
+[🐛 Reportar Bug](https://github.com/TeusDev/timeoff-planner/issues) •
+[💡 Sugerir Feature](https://github.com/TeusDev/timeoff-planner/issues) •
+[📖 Documentação](https://github.com/TeusDev/timeoff-planner/wiki)
 
 </div>
